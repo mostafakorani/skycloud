@@ -1,0 +1,126 @@
+.main {
+
+    width: auto;
+    height: 100%;
+    margin: 50px 100px 50px 100px;
+	margin-left: 30px;
+	font-size: 14px;
+	
+}
+
+.user_content {
+
+    width: auto;
+    height: 100%;
+    margin-left: 40px;;
+	
+}
+
+table{
+	 box-shadow: 0px 5px 10px rgba( 0, 0, 0, 0.2 );
+	border-radius: 5px;
+}
+table, tr {
+  border: 4px black;
+  border-radius: 7px;
+}
+
+tr, td {
+  padding: 13px;
+  border-radius: 7px;
+}
+tr:hover {background-color: #F76C6C;}
+tr:nth-child(even):hover {background-color: #F76C6C;}
+tr:nth-child(1){
+	background-color: #30c9e9;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+
+
+
+a.down{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a.down{
+  position: relative;
+  z-index: 2;
+}
+
+a.down:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #4ff4a2;
+  transition: all .35s;
+}
+
+a.down:hover{
+  color: #fff;
+}
+
+a.down:hover:after{
+  width: 100%;
+}
+
+
+
+a.delete{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a.delete{
+  position: relative;
+  z-index: 2;
+}
+
+a.delete:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+a.delete:hover{
+  color: #fff;
+}
+
+a.delete:hover:after{
+  width: 100%;
+}

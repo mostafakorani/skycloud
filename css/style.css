@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+    scroll-behavior: smooth;
+}
+
+body {
+background-image: url("../image/a.png");
+  background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background: white;
+    opacity: 0.8;
+}
+
+.header .nav img{
+    width: 50px;
+    height: 50px;
+    margin: 15px 15px 15px 15px;
+    float: left;
+}
+
+.header .nav h3 {
+    float: left;
+     margin: 25px 15px 15px 0px;
+     font-size: 24px;
+}
+
+.header .nav button{
+    float: right;
+    width: 50px;
+    height: 50px;
+    color: black;
+    margin: 15px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(111,0,0); /* Fallback color */
+  background-color: rgba(0,1,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 30px 20px 20px 20px;
+  border: 1px solid #888;
+  width: 50%;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header .nav a {
+    display: block;
+    font-size: 18px;
+    margin: 20px;
+    color: #0099cc;
+    text-decoration: none;
+}
+
+.header .nav a:hover{
+    font-size: 24px;
+    background-color: #6699ff;
+    color: white;
+    transition-duration: 600ms;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+}
+
+.main #data-box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #30c9e9;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 10, 0.2);
+}
+
+#data-box h1 {
+    color: white;
+    font-size: 32px;
+    margin: 80px 50px 40px 50px;
+}
+
+#data-box p {
+    margin: 0px 50px 0px 50px;
+    color: white;
+    font-size: 20px;
+}
+
+#data-box #mybtn2 {
+    margin: 30px 50px 0px 50px;
+    background-color: #f76c6c;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 15px 32px;
+border-radius: 5px;
+
+}
+
+#data-box #mybtn2:hover {
+    background-color: #0099cc;
+}
+
+.main #aboutus {
+    background-color: #30c9e9;
+    width: 300px;
+    height: 100%;
+    float: right;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 10, 0.2);
+}
+
+
+#aboutus h2 {
+    color: white;
+    margin-left: 25px;
+    margin-top: 80px;
+    font-size: 28px;
+}
+
+#aboutus Button {
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 25px 0px 5px 10px;
+    font-size: 24px;
+}
+
+.footer #button{
+    width:35px;
+    height:35px;
+    border: #727172 12px solid;
+    border-radius:35px;
+    margin:0 auto;
+    position:relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+    width:35px;
+    height:35px;
+    border: #3A3A3A 12px solid;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position:relative;
+}
+.footer {
+    bottom:0;
+    left:0;
+    position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index:999;
+}
+.footer:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    height: 10em;
+}
+
+.footer #container{
+    margin-top:5px;
+    width:100%;
+height:100%;
+  position:relative;
+  top:0;
+  left:0;
+    background: #3A3A3A;
+}
+
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+    width:150px;
+    height:auto;
+    margin:0 auto;
+}
+
+.footer_center{
+    width:500px;
+    float:left;
+  text-align:center;
+}
+
+.footer h3{
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-weight: 100;
+    margin-top:70px;
+    margin-left:40px;
+}
+
+
